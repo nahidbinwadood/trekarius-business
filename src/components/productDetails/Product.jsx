@@ -1,4 +1,3 @@
-import Bag from '../../assets/images/bag.png';
 import { FaStar } from 'react-icons/fa';
 import ProductSlider from './ProductSlider';
 import img1 from '@/assets/images/product/1.jpg';
@@ -10,7 +9,7 @@ import img6 from '@/assets/images/product/6.jpg';
 import img7 from '@/assets/images/product/7.jpg';
 import img8 from '@/assets/images/product/8.jpg';
 import img9 from '@/assets/images/product/9.jpg';
-const productImages=[img1, img2, img3, img4, img5, img6, img7, img8, img9]
+const productImages = [img1, img2, img3, img4, img5, img6, img7, img8, img9];
 
 function Product() {
   return (
@@ -21,7 +20,7 @@ function Product() {
         <ProductSlider productImages={productImages} />
 
         {/* description */}
-        <div className='my-5 md:my-8 lg:my-10'>
+        <div className="my-5 md:my-8 lg:my-10">
           <h1 className="text--sm custom-md:text-[20px] custom-sm:text-[20px] custom-xs:text-[18px] text-headingColor font-bold mb-4">
             Trekrius 35L - Travel bag
           </h1>
@@ -34,30 +33,7 @@ function Product() {
           </div>
           <p className="mt-4 text-[18px] w-[80%] custom-md:text-base custom-sm:text-base custom-xs:text-sm">
             Google Play Store, shortened to Play Store on the Home screen and
-            App screen, is Google's official pre-installed app store on
-            Android-certified devices.
-          </p>
-        </div>
-      </div>
-
-      <div className=" hidden flex custom-sm:flex-col custom-xs:flex-col items-center gap-10 max-md:gap-6 pb-8">
-        <div className="w-full max-w-[306px] h-[200px] custom-xs:max-w-full custom-sm:max-w-full flex items-center justify-center bg-[#f5f6f7] rounded-[16px]">
-          <img className="w-full h-full rounded-[12px]" src={Bag} alt="Bag" />
-        </div>
-        <div>
-          <h1 className="text--sm custom-md:text-[20px] custom-sm:text-[20px] custom-xs:text-[18px] text-headingColor font-bold mb-4">
-            Trekrius 35L - Travel bag
-          </h1>
-          <div className="flex items-center gap-2 text-primaryOrange text-[20px]">
-            <FaStar />
-            <FaStar />
-            <FaStar />
-            <FaStar />
-            <FaStar />
-          </div>
-          <p className="mt-4 text-[18px] w-[80%] custom-md:text-base custom-sm:text-base custom-xs:text-sm">
-            Google Play Store, shortened to Play Store on the Home screen and
-            App screen, is Google's official pre-installed app store on
+            App screen, is Google&lsquo;s official pre-installed app store on
             Android-certified devices.
           </p>
         </div>
