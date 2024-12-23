@@ -22,7 +22,7 @@ function EarnRewards() {
           </p>
           <div data-aos="fade-up" data-aos-delay="150">
             <Link
-              to={"/"}
+              to={"/contest"}
               className="mt-6 inline-block text-base max-md:text-sm py-3 px-6 border-[2px] border-white rounded-[40px] duration-200 ease-in-out hover:bg-white hover:text-headingColor font-semibold text-white"
             >
               TAKE THE QUIZ

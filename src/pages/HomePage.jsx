@@ -1,4 +1,4 @@
-import NewArrivals from "@/components/HomePage/NewArrivals";
+
 import FeatheredBackpaks from "../components/HomePage/FeatheredBackpaks";
 import HeroSection from "../components/HomePage/HeroSection";
 import VideoSection from "../components/HomePage/VideoSection";
