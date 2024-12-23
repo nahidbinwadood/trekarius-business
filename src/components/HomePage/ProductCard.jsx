@@ -20,10 +20,10 @@ function ProductCard({ item }) {
         <Link to={`/products/${item.id}`} className="inline-block text-[20px] max-md:text-[18px] font-semibold text-headingColor duration-200 ease-in-out hover:underline">{item.title}</Link>
         <div className="flex items-center gap-[6px] mt-6">
           <p className="text-[18px] font-bold text-headingColor ">
-            ${item.currentPrice}
+            £{item.currentPrice}
           </p>
           <del className="text-[18px] font-bold text-paragraphColor opacity-40">
-            ${item.prevPrice}
+            £{item.prevPrice}
           </del>
         </div>
         {/* button  */}

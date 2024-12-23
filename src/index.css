@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -65,7 +65,7 @@
   .video-slide-btn {
     @apply py-[9px] px-[22px] bg-white rounded-[40px] flex items-center justify-center gap-2 text-sm font-bold text-headingColor max-w-[110px];
   }
-  [role="dialog"] button svg {
+  [role='dialog'] button svg {
     @apply hidden;
   }
   .pricing-feature li {
@@ -145,11 +145,11 @@
     @apply relative pl-9 flex items-center justify-between mt-4 first:mt-0 font-medium;
   }
   .categories label:before {
-    content: "";
+    content: '';
     @apply absolute top-1/2 translate-y-[-50%] left-0 h-6 w-6 rounded-full bg-[#fafafb] border border-rewardBg;
   }
   .categories input:checked + label:after {
-    content: "";
+    content: '';
     @apply absolute top-[2px] left-[9px] w-[6px] h-[14px] rotate-[45deg];
     border: solid #222e48;
     border-width: 0 2.2px 2.2px 0;
@@ -169,8 +169,14 @@
   .total-cart ul li p {
     @apply text-[18px] custom-xs:text-base font-medium text-headingColor;
   }
-  .cart-item:last-child{
+  .cart-item:last-child {
     border: none;
+  }
+  .product-details-slider .swiper-pagination-bullet {
+    @apply size-2 md:size-3 bg-white opacity-80;
+  }
+  .product-details-slider .swiper-pagination-bullet-active {
+    @apply bg-primaryOrange;
   }
 }
 
@@ -179,13 +185,12 @@
     width: 8px;
     height: 8px;
   }
-  
+
   ::-webkit-scrollbar-thumb {
     background: #d3d3d3;
     border-radius: 10px;
   }
 }
-
 
 .react-calendar {
   @apply !border-none;
