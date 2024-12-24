@@ -1,13 +1,14 @@
 import Container from '../container/Container';
 import HeroBanner from '../../assets/images/hero-banner.png';
 import { Link } from 'react-router-dom';
+import { BannerLogoSvg } from '../SvgContainer/SvgContainer';
 
 function HeroSection() {
   return (
-    <section className="mt-[90px] custom-xs:mt-[70px]">
+    <section className="mt-[90px] custom-xs:mt-[70px] ">
       <Container>
         <div
-          className="bg-cover bg-center bg-no-repeat pt-[200px] pb-[230px] custom-xl:py-[170px] max-xl:py-[160px] custom-md:!py-[140px] custom-sm:!py-[100px] px-10 rounded-[32px] custom-sm:rounded-[20px] custom-xs:rounded-[12px]  custom-xs:px-5 custom-xs:!py-[55px]"
+          className="bg-cover bg-center bg-no-repeat pt-[200px] pb-[230px] custom-xl:py-[170px] max-xl:py-[160px] custom-md:!py-[140px] custom-sm:!py-[100px] px-10 rounded-[32px] custom-sm:rounded-[20px] custom-xs:rounded-[12px]  custom-xs:px-5 custom-xs:!py-[55px] relative"
           style={{ backgroundImage: `url('${HeroBanner}')` }}
         >
           <div className="text-center">
@@ -33,6 +34,11 @@ function HeroSection() {
                 Shop Now
               </Link>
             </div>
+          </div>
+
+          {/* logo */}
+          <div className="absolute custom-xs:right-2 custom-xs:bottom-2 custom-sm:right-3 custom-sm:bottom-3 custom-md:right-5 custom-md:bottom-5 md:right-5 md:bottom-5">
+            <BannerLogoSvg />
           </div>
         </div>
       </Container>
