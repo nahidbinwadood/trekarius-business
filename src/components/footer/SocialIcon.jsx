@@ -11,10 +11,10 @@ function SocialIcon() {
             <Link to={'/'} className="social-icon"><FaFacebook /></Link>
         </li>
         <li data-aos="fade-in" data-aos-delay="200">
-            <Link to={'/'} className="social-icon"><FaTwitter /></Link>
+            <Link to={'https://x.com/trekarlus?s=21'} target="_blank" className="social-icon"><FaTwitter /></Link>
         </li>
         <li data-aos="fade-in" data-aos-delay="200">
-            <Link to={'/'} className="social-icon"><FaInstagram /></Link>
+            <Link to={'https://www.instagram.com/trekarius2024/'} target="_blank" className="social-icon"><FaInstagram /></Link>
         </li>
         <li data-aos="fade-in" data-aos-delay="300">
             <Link to={'/'} className="social-icon"><FaSkype /></Link>
