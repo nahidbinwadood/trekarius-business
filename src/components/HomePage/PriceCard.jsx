@@ -10,7 +10,7 @@ function PriceCard({icon, price, children}) {
         </div>
         {/* price  */}
         <div className='flex items-center gap-[4px] mt-6'>
-            <h4 className='text-[56px] max-md:text-[38px] font-semibold text-primaryOrange'>${price}</h4>
+            <h4 className='text-[56px] max-md:text-[38px] font-semibold text-primaryOrange'>£{price}</h4>
             <span className='text-white font-[18px] mt-5'>/Per month</span>
         </div>
         <p className='divider py-6'>
@@ -21,7 +21,7 @@ function PriceCard({icon, price, children}) {
             <Link to={'/'} className='inline-block py-4 px-8 max-md:py-[10px] max-md:px-5 max-md:text-sm rounded-[40px] bg-primaryOrange text-white text-base font-semibold border border-primaryOrange hover:bg-transparent hover:text-primaryOrange duration-200 ease-in-out'>Enable Plan</Link>
         </div>
     </div>
-  ) 
+  )
 }
 
 export default PriceCard

@@ -1,7 +1,7 @@
 import Container from "../container/Container";
 import PriceCard from "./PriceCard";
 import HomeIcon from "../../assets/images/icons/home.svg";
-import tagIcon from "../../assets/images/icons/tags.svg";
+
 import check from "../../assets/images/icons/check.png";
 
 function PricingSection() {
@@ -19,30 +19,26 @@ function PricingSection() {
         <div className="flex custom-sm:flex-col custom-sm:gap-4 custom-xs:flex-col custom-xs:gap-0 justify-center gap-6">
           {/* price card  */}
           <div data-aos="fade-up" data-aos-delay="100">
-            <PriceCard icon={HomeIcon} price="19">
+            <PriceCard icon={HomeIcon} price="6.99">
               <ul className="pricing-feature">
                 <li>
                   <img src={check} alt="check" />
-                  Assistance with writing, problem solving and more
+                  Full access to blog and travel information
                 </li>
                 <li>
                   <img src={check} alt="check" />
-                  Access to GPT-4o mini
+                  Travel itinerary and photos and videos
                 </li>
                 <li>
                   <img src={check} alt="check" />
-                  Limited access to data analysis, file uploads, vision, web
-                  browsing, and image generation
+                 Access to world wide TREKARIUS travel community
                 </li>
-                <li className="disabled">
-                  <img src={check} alt="check" />
-                  Use custom GPTs
-                </li>
+                
               </ul>
             </PriceCard>
           </div>
           {/* price card  */}
-          <div data-aos="fade-up" data-aos-delay="200">
+          {/* <div data-aos="fade-up" data-aos-delay="200">
             <PriceCard icon={tagIcon} price="39">
               <ul className="pricing-feature">
                 <li>
@@ -64,7 +60,7 @@ function PricingSection() {
                 </li>
               </ul>
             </PriceCard>
-          </div>
+          </div> */}
         </div>
       </Container>
     </section>
