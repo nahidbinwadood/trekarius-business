@@ -11,7 +11,7 @@ function PreOrderSection() {
         <div className="p-[87px] custom-md:p-[60px] custom-sm:p-[30px] custom-xs:p-5 bg-primaryOrange text-center rounded-[20px] relative z-[1] custom-xs:rounded-[16px] custom-xs:pb-7 overflow-hidden">
           <div className="max-md:relative max-md:h-[350px] max-md:w-[422px] custom-xs:!h-[280px] custom-sm:!w-full custom-xs:!w-full max-md:mx-auto max-md:mb-[30px] custom-xs:!mb-5">
             <img
-              className="absolute top-0 right-0 custom-sm:right-[50px] custom-xs:right-[50px] bottom-0 h-full w-full lg:w-[330px] object-cover custom-sm:w-full custom-xs:w-full custom-xs:left-0 z-[-1] max-md:z-[1] lg:rounded-r-[20px] rounded-[16px]"
+              className="absolute top-0 right-0  custom-xs:right-[50px] bottom-0 h-full w-full lg:w-[330px] object-cover custom-sm:w-full custom-xs:w-full custom-xs:left-0 z-[-1] max-md:z-[1] lg:rounded-r-[20px] lg:rounded-l-none rounded-[16px]"
               src={PreOrderBag}
               alt=""
             />

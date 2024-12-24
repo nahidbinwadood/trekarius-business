@@ -11,7 +11,7 @@ function BlogCard({ item }) {
         <p className="text-sm font-bold text-headingColor mt-3 mb-[100px] custom-xs:mb-[60px]">{item?.modarator}</p>
         <div>
           <Link
-            to={"/"}
+           to={`/blogs/${item.title}`}
             className="inline-block text-sm py-2 px-6 border border-[rgba(30,30,30,0.08)] rounded-[30px] duration-200 ease-in-out hover:text-white hover:bg-primaryOrange font-semibold text-headingColor"
           >
             Read more
