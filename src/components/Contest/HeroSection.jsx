@@ -21,14 +21,14 @@ function HeroSection() {
                   className="text--xl custom-md:text-[30px] custom-sm:text-[24px] custom-xs:text-[24px] font-bold text-white"
                   data-aos="fade-up"
                 >
-                  Photo Contest 2024
+                  Photo Contest 2025
                 </h1>
                 <p
                   className="text-[18px] custom-xs:text-base custom-xs:font-medium font-bold text-white mt-4"
                   data-aos="fade-up"
                   data-aos-delay="100"
                 >
-                  Submit Your Best Shots to Smithsonian Magazine's 22nd Annual
+                  Submit Your Best Shots to TREKARIUS Annual
                   Photo Contest
                 </p>
               </div>
