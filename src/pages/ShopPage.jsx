@@ -1,17 +1,17 @@
-import Container from "@/components/container/Container";
-import FilterSidebar from "@/components/shop/FilterSidebar";
-import Products from "@/components/shop/Products";
+import Container from '@/components/container/Container';
+import FilterSidebar from '@/components/shop/FilterSidebar';
+import Products from '@/components/shop/Products';
 
 const products = [
   {
     id: 1,
-    imgFront: "https://i.ibb.co.com/qnhvDVT/6-C389338-ED3-B-455-B-BC9-F-B8-CE208-E60-DE.jpg",
-    imgBack: "https://i.ibb.co.com/Tr7m6m4/file-28-1.png",
-    title: "Trekrius 35L - Travel bag",
-    prevPrice: "57.50",
-    currentPrice: "115",
+    imgFront:
+      'https://i.ibb.co.com/qnhvDVT/6-C389338-ED3-B-455-B-BC9-F-B8-CE208-E60-DE.jpg',
+    imgBack: 'https://i.ibb.co.com/Tr7m6m4/file-28-1.png',
+    title: 'Trekarius 35L - Travel bag',
+    prevPrice: '199',
+    currentPrice: '165',
   },
-  
 ];
 
 function ShopPage() {

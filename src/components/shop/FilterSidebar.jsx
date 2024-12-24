@@ -97,8 +97,8 @@ function FilterSidebar() {
                     : "bg-transparen text-headingColor"
                 }`}
                 onClick={() => handleTag(tag)}
-                data-aos="fade-up"
-                data-aos-delay={index * 100}
+                // data-aos="fade-up"
+                // data-aos-delay={index * 100}
               >
                 {tag}
               </li>

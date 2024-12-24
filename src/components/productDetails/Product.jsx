@@ -22,7 +22,7 @@ function Product() {
         {/* description */}
         <div className="my-5 md:my-8 lg:my-10">
           <h1 className="text--sm custom-md:text-[20px] custom-sm:text-[20px] custom-xs:text-[18px] text-headingColor font-bold mb-4">
-            Trekrius 35L - Travel bag
+            Trekarius 35L - Travel bag
           </h1>
           <div className="flex items-center gap-2 text-primaryOrange text-[20px]">
             <FaStar />

@@ -1,9 +1,8 @@
-import Container from "../container/Container";
-import HeroBanner from "../../assets/images/hero-banner.png";
-import { Link } from "react-router-dom";
+import Container from '../container/Container';
+import HeroBanner from '../../assets/images/hero-banner.png';
+import { Link } from 'react-router-dom';
 
 function HeroSection() {
-
   return (
     <section className="mt-[90px] custom-xs:mt-[70px]">
       <Container>
@@ -23,12 +22,12 @@ function HeroSection() {
               data-aos="fade-up"
               data-aos-delay="100"
             >
-              Get you travel bag now!{" "}
+              Get your travel bag now!
             </p>
 
             <div data-aos="fade-up" data-aos-delay="150">
               <Link
-                to={"/shop"}
+                to={'/shop'}
                 className="mt-6 inline-block py-4 px-6 custom-xs:py-2 custom-xs:px-4 custom-xs:text-sm bg-white font-bold text-headingColor rounded-[8px] duration-200 ease-in-out border-[2px] border-white hover:bg-transparent hover:text-white"
               >
                 Shop Now
