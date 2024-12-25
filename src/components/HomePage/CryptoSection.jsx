@@ -20,8 +20,8 @@ const CryptoSection = () => {
               alt=""
             />
           </div>
-          <h3 className="w-[868px] max-md:w-full mx-auto text-[32px] font-bold text-white custom-xs:text-[20px]">
-            This is a Crypto Friendly Website
+          <h3 className="w-[868px] max-md:w-full mx-auto text-[40px] font-bold text-white custom-xs:text-[20px]">
+            Crypto Friendly
           </h3>
           <h3 className="w-[868px] max-md:w-full mx-auto text-[32px] font-bold text-white custom-xs:text-[18px]">
             We accept crypto

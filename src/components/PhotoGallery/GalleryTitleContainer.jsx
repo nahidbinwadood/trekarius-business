@@ -5,7 +5,7 @@ const GalleryTitleContainer = () => {
         Get inspired
       </h1>
       <p data-aos-delay="100" data-aos="fade-up" className="md:text-lg">
-        Check out the top pics of the contest of Trakarius
+        Check out the top pictures and videos of Trakarius contest .
       </p>
     </div>
   );
