@@ -54,10 +54,10 @@ function LatestBlogs() {
   };
 
   return (
-    <section className="pt-[100px] pb-[160px] custom-xl:pb-[120px] max-md:py-[10px] custom-sm:!py-[10px] custom-xs:!py-[10px] px-10 max-md:px-4">
+    <section className="pt-[40px] pb-[40px] custom-xl:pb-[120px] max-md:py-[10px] custom-sm:!py-[10px] custom-xs:!py-[10px] px-10 max-md:px-4">
       <Container>
         {/* title  */}
-        <div className="mb-[60px] custom-sm:mb-[30px] custom-xs:mb-[30px]">
+        <div className="mb-[40px] custom-sm:mb-[30px] custom-xs:mb-[30px]">
           <h3 className="text--xl" data-aos="fade-up">Latest Blogs</h3>
         </div>
         <div className="relative">

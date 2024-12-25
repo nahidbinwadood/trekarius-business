@@ -16,6 +16,7 @@ const menuItems = [
   { name: "Contest & Reward", link: "/contest" },
   { name: "Shop", link: "/shop" },
   { name: "Blog", link: "/blogs" },
+  { name: "Photo Gallery", link: "/photo-gallery" },
 ];
 
 function Navbar() {
@@ -32,7 +33,7 @@ function Navbar() {
           </div>
           {/* menu  */}
           <div className="max-xl:hidden">
-            <ul className="flex items-center gap-10">
+            <ul className="flex items-center gap-6 2xl:gap-10">
               {menuItems.map((item, index) => (
                 <li
                   key={item?.name}
@@ -92,7 +93,7 @@ function Navbar() {
             {
               isMenuOpen ? <p className="text-[30px]"><GrClose /></p> : <IoMenuOutline />
             }
-            
+
           </div>
         </div>
         {/* mobile menu  */}

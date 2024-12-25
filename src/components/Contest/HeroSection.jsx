@@ -1,7 +1,7 @@
-import Container from "../container/Container";
-import copntestBanner from "../../assets/images/contest-banner.png";
-import { Link } from "react-router-dom";
-import CommonButton from "../common/CommonButton";
+import Container from '../container/Container';
+import copntestBanner from '../../assets/images/contest-banner.png';
+import { Link } from 'react-router-dom';
+import CommonButton from '../common/CommonButton';
 
 function HeroSection() {
   return (
@@ -12,7 +12,7 @@ function HeroSection() {
             className="bg-cover bg-no-repeat bg-center pt-[542px] custom-xl:pt-[320px] custom-lg:pt-[320px] custom-md:pt-[250px] custom-md:pb-[80px] px-10 pb-[124px] custom-sm:pt-[150px] custom-sm:pb-8 custom-sm:px-6 custom-sm:rounded-[16px] custom-xs:pt-[130px] custom-xs:pb-8 custom-xs:px-6 custom-xs:rounded-[16px] rounded-[16px]"
             style={{
               backgroundImage: `linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(${copntestBanner})`,
-              backgroundColor: "lightgray",
+              backgroundColor: 'lightgray',
             }}
           >
             <div className="flex max-md:block items-center justify-between">
@@ -28,12 +28,11 @@ function HeroSection() {
                   data-aos="fade-up"
                   data-aos-delay="100"
                 >
-                  Submit Your Best Shots to TREKARIUS Annual
-                  Photo Contest
+                  Submit Your Best Shots to TREKARIUS Annual Photo Contest
                 </p>
               </div>
               <Link
-                to={"/contest/photo-contest"}
+                to={'/contest/photo-contest'}
                 className="max-md:mt-6 inline-block"
                 data-aos="fade-up"
               >

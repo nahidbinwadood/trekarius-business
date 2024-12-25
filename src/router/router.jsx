@@ -14,6 +14,7 @@ import ShopPage from "@/pages/ShopPage";
 import ProductDetailsPage from "@/pages/ProductDetailsPage";
 import CartPage from "@/pages/CartPage";
 import ErrorPage from "@/pages/Error/ErrorPage";
+import PhotoGallery from "@/pages/PhotoGallery";
 
 const router = createBrowserRouter([
   {
@@ -72,6 +73,10 @@ const router = createBrowserRouter([
       {
         path: "/cart",
         element: <CartPage />
+      },
+      {
+        path: "/photo-gallery",
+        element: <PhotoGallery />
       },
     ],
   },

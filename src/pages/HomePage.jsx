@@ -7,6 +7,7 @@ import EarnRewards from '@/components/HomePage/EarnRewards';
 import AskAiSection from '@/components/HomePage/AskAiSection';
 import PreOrderSection from '@/components/HomePage/PreOrderSection';
 import JoinCommunitySection from '@/components/HomePage/JoinCommunitySection';
+import CryptoSection from '@/components/HomePage/CryptoSection';
 
 function HomePage() {
   return (
@@ -20,6 +21,7 @@ function HomePage() {
       <PricingSection />
       <JoinCommunitySection />
       <LatestBlogs />
+      <CryptoSection />
       <EarnRewards />
     </>
   );
