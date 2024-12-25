@@ -5,21 +5,19 @@ import galleryImage1 from '../assets/images/contest/gal-1.png';
 import galleryImage2 from '../assets/images/contest/gal-2.png';
 import galleryImage3 from '../assets/images/contest/gal-3.png';
 import galleryImage4 from '../assets/images/contest/gal-4.avif';
+import video1 from '../assets/videos/1.mp4';
+import video2 from '../assets/videos/2.mp4';
+import video3 from '../assets/videos/3.mp4';
+import video4 from '../assets/videos/4.mp4';
 const PhotoGallery = () => {
   const galleryItems = [
     {
       images: [galleryImage1, galleryImage2],
-      videos: [
-        'https://videos.pexels.com/video-files/2098989/2098989-uhd_2560_1440_30fps.mp4',
-        'https://videos.pexels.com/video-files/2519660/2519660-uhd_2560_1440_24fps.mp4',
-      ],
+      videos: [video1, video2],
     },
     {
       images: [galleryImage3, galleryImage4],
-      videos: [
-        'https://videos.pexels.com/video-files/2257010/2257010-uhd_2560_1440_24fps.mp4',
-        'https://videos.pexels.com/video-files/2894895/2894895-uhd_2560_1440_24fps.mp4',
-      ],
+      videos: [video3, video4],
     },
   ];
   return (
@@ -29,7 +27,7 @@ const PhotoGallery = () => {
         <GalleryTitleContainer />
 
         {/* gallery section */}
-        <GalleryContainer  galleryItems={galleryItems}/>
+        <GalleryContainer galleryItems={galleryItems} />
       </Container>
     </div>
   );
