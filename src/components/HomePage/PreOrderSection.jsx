@@ -16,7 +16,7 @@ function PreOrderSection() {
               alt=""
             />
             <img
-              className="absolute top-0 left-0 custom-sm:left-0 bottom-0 w-[422px] custom-sm:w-full custom-xs:w-full h-full z-[-1] hidden custom-lg:block lg:block xl:block"
+              className="absolute top-0 left-0 custom-sm:left-0 bottom-0 w-[422px] custom-sm:w-full custom-xs:w-full h-full z-[-1]  custom-lg:block lg:block xl:block"
               src={logo}
               alt=""
             />
