@@ -1,6 +1,7 @@
 import Container from '../container/Container';
 import ProductCard from './ProductCard';
 import bag from '../../assets/images/updated/4.jpeg';
+import { Link } from 'react-router-dom';
 const products = [
   {
     id: 1,
@@ -25,9 +26,9 @@ function FeatheredBackpaks() {
         </div>
         <div className="grid grid-cols-4 custom-2xl:grid-cols-3 custom-xl:grid-cols-3 max-xl:grid-cols-2 custom-sm:!grid-cols-1 custom-xs:!grid-cols-1 gap-5">
           {products.map((item, index) => (
-            <div key={item.id} data-aos="fade-up" data-aos-delay={index * 100}>
+            <Link to={`/products/${item.id}`} key={item.id} data-aos="fade-up" data-aos-delay={index * 100}>
               <ProductCard item={item} />
-            </div>
+            </Link>
           ))}
         </div>
       </Container>
