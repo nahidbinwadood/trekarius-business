@@ -24,7 +24,7 @@ const ProductSlider = ({ productImages }) => {
           <SwiperSlide key={item}>
             <div className="h-[250px] md:h-[350px] lg:h-[500px]">
               <img
-                className="w-full h-full object-cover rounded-[12px]"
+                className="w-full h-full object-cover md:object-contain object-center rounded-[12px]"
                 src={item}
                 alt=""
               />

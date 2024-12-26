@@ -173,7 +173,7 @@
     border: none;
   }
   .product-details-slider .swiper-pagination-bullet {
-    @apply size-2 md:size-3 bg-white opacity-80;
+    @apply size-2 md:size-3 border border-primaryOrange bg-transparent opacity-80;
   }
   .product-details-slider .swiper-pagination-bullet-active {
     @apply bg-primaryOrange;

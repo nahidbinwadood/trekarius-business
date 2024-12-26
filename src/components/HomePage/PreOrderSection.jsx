@@ -1,8 +1,8 @@
-import Container from "../../components/container/Container";
-import { Link } from "react-router-dom";
-import CommonButton from "../common/CommonButton";
-import PreOrderBag from "../../assets/images/product/1.jpg";
-import logo from "../../assets/images/treakaruis.png";
+import Container from '../../components/container/Container';
+import { Link } from 'react-router-dom';
+import CommonButton from '../common/CommonButton';
+import PreOrderBag from '../../assets/images/updated/bg-none.png';
+import logo from '../../assets/images/treakaruis.png';
 
 function PreOrderSection() {
   return (
@@ -22,10 +22,10 @@ function PreOrderSection() {
             />
           </div>
           <h3 className="w-[868px] max-md:w-full mx-auto text-[32px] font-bold text-white custom-xs:text-[18px]">
-            Mark your calendars! We&lsquo;re thrilled to announce that we&lsquo;re launching
-            on May 2025.{" "}
+            Mark your calendars! We&lsquo;re thrilled to announce that
+            we&lsquo;re launching on May 2025.{' '}
           </h3>
-          <Link to={"/cart"} className="mt-6 inline-block">
+          <Link to={'/cart'} className="mt-6 inline-block">
             <CommonButton text="Pre Order Now" type="fill" bgColor="#1687C7" />
           </Link>
         </div>

@@ -1,15 +1,37 @@
 import { FaStar } from 'react-icons/fa';
 import ProductSlider from './ProductSlider';
-import img1 from '@/assets/images/product/1.jpg';
-import img2 from '@/assets/images/product/2.jpg';
-import img3 from '@/assets/images/product/3.jpg';
-import img4 from '@/assets/images/product/4.jpg';
-import img5 from '@/assets/images/product/5.jpg';
-import img6 from '@/assets/images/product/6.jpg';
-import img7 from '@/assets/images/product/7.jpg';
-import img8 from '@/assets/images/product/8.jpg';
-import img9 from '@/assets/images/product/9.jpg';
-const productImages = [img1, img2, img3, img4, img5, img6, img7, img8, img9];
+import img1 from '@/assets/images/updated/1.jpeg';
+import img2 from '@/assets/images/updated/2.jpeg';
+import img3 from '@/assets/images/updated/3.jpeg';
+import img4 from '@/assets/images/updated/4.jpeg';
+import img5 from '@/assets/images/updated/5.jpeg';
+import img6 from '@/assets/images/updated/6.jpeg';
+import img7 from '@/assets/images/updated/7.jpeg';
+import img8 from '@/assets/images/updated/8.jpeg';
+import img9 from '@/assets/images/updated/9.jpeg';
+import img10 from '@/assets/images/updated/10.jpeg';
+import img11 from '@/assets/images/updated/11.jpeg';
+import img12 from '@/assets/images/updated/12.jpeg';
+import img13 from '@/assets/images/updated/13.jpeg';
+import img14 from '@/assets/images/updated/14.jpeg';
+import img15 from '@/assets/images/updated/15.jpeg';
+const productImages = [
+  img1,
+  // img2,
+  // img3,
+  img4,
+  img5,
+  img6,
+  img7,
+  img8,
+  // img9,
+  img10,
+  img11,
+  img12,
+  // img13,
+  img14,
+  img15,
+];
 
 function Product() {
   return (

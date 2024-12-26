@@ -1,12 +1,11 @@
 import Container from '@/components/container/Container';
 import FilterSidebar from '@/components/shop/FilterSidebar';
 import Products from '@/components/shop/Products';
-
+import bag from '../assets/images/updated/4.jpeg';
 const products = [
   {
     id: 1,
-    imgFront:
-      'https://i.ibb.co.com/qnhvDVT/6-C389338-ED3-B-455-B-BC9-F-B8-CE208-E60-DE.jpg',
+    imgFront: bag,
     imgBack: 'https://i.ibb.co.com/Tr7m6m4/file-28-1.png',
     title: 'Trekarius 35L - Travel bag',
     prevPrice: '199',
