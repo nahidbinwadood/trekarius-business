@@ -11,15 +11,15 @@ function TotalCart() {
         <ul className="py-[30px] border-b border-t border-dashed border-borderColor">
             <li>
                 <p>Subtotal</p>
-                <p>${subTotalValue}</p>
+                <p>£{subTotalValue}</p>
             </li>
             <li>
                 <p>Shipping</p>
-                <p>$15</p>
+                <p>£15</p>
             </li>
             <li>
                 <p>Total</p>
-                <p>${totalValue}</p>
+                <p>£{totalValue}</p>
             </li>
         </ul>
         <button className="mt-[30px] py-3 px-6 rounded-[70px] bg-primaryOrange font-semibold text-white border-[2px] border-primaryOrange duration-200 ease-in-out hover:bg-transparent hover:text-primaryOrange custom-xs:text-sm custom-xs:py-[10px]">Checkout</button>

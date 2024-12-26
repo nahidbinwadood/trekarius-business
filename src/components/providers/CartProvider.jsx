@@ -5,8 +5,8 @@ import cartReducer from "../reducers/CartReducers";
 // Initial State
 const initialState = {
   cartItems: [
-    { id: 1, name: "Office & Desk Chairs", price: 55, quantity: 2 },
-    { id: 2, name: "Travel Bag", price: 25, quantity: 4 }
+    { id: 1, name: "Office & Desk Chairs", price: 165, quantity: 2 },
+    { id: 2, name: "Travel Bag", price: 165, quantity: 4 }
   ],
 };
 

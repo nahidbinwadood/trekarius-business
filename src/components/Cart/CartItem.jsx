@@ -1,5 +1,5 @@
 import { useContext } from "react";
-import Bag from "../../assets/images/bag.png";
+import Bag from "../../assets/images/updated/5.jpeg"
 import { IoClose } from "react-icons/io5";
 import { CartContext } from "../context";
 
@@ -32,7 +32,7 @@ function CartItem({ item }) {
       <p className="text-center font-medium text-headingColor">
         <div className="flex items-center justify-center custom-sm:justify-start custom-xs:justify-start custom-sm:mt-5 custom-xs:mt-5">
           <p className="hidden custom-sm:block custom-xs:block mr-1">Price:</p>
-          ${item?.price}
+          £{item?.price}
         </div>
       </p>
       {/* quantitty  */}
@@ -62,7 +62,7 @@ function CartItem({ item }) {
       {/* sub total  */}
       <p className="text-center font-medium text-headingColor">
         <div className="flex items-center justify-center custom-sm:justify-start custom-sm:mt-5 custom-xs:justify-start custom-xs:mt-5">
-            <p className="hidden custom-sm:block custom-xs:block mr-1">Subtotal: </p>${subTotal}
+            <p className="hidden custom-sm:block custom-xs:block mr-1">Subtotal: </p>£{subTotal}
         </div>
       </p>
       {/* remove  */}
