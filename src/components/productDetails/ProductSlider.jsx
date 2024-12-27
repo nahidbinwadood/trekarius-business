@@ -3,7 +3,7 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 import { Autoplay, Pagination, Navigation } from 'swiper/modules';
-const ProductSlider = ({ productImages }) => {
+const   ProductSlider = ({ productImages }) => {
   return (
     <div className='rounded-[12px] overflow-hidden product-details-slider'>
       <Swiper

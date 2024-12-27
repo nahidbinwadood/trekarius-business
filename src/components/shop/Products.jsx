@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import PaginationCustom from '../common/PaginationCustom';
+// import PaginationCustom from '../common/PaginationCustom';
 import ProductCard from '../HomePage/ProductCard';
 
 function Products({ products }) {
